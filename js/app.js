@@ -1,15 +1,15 @@
-// //Question 1
+// //Commit 1
 // for (i = 1; i <=20; i++){
 // 	console.log(i)
 // }
 
-// //Question 2
+// //Commit 2
 // for (i =0; i<=200; i++){
 // 	if(i%2 == 0){
 // 		console.log(i)
 // 	}
 // }
-// //Question 3
+// //Commit 3
 
 // const arry = ["...human...why you taking pictures of me?", "...the catnip made me do it...", "...why does the red dot always get away..."];
 // for (i=1; i <=20; i++){
@@ -20,7 +20,7 @@
 // 	}
 // }
 
-//Question 4
+//Commit 4
 
 // for (let i = 1; i <=100; i++){
 		
@@ -35,7 +35,7 @@
 // 		}
 // 		}
 
-// //Question 5
+// //Commit 5
 // const kenny = ["Kenny", 1000, "Austin"];
 // const jimHaff = ["Jim H", 16, "All cities"];
 // const reuben = ["Reuben", 22, "Durham"];
@@ -59,13 +59,13 @@
 // jimHaff.splice(2,1);
 // console.log(jimHaff);
 
-//Question 6
+//Commit 6
 // const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 // for (let i = 0; i < turtles.length; i++) {
 // 	console.log(turtles[i].toUpperCase());
 // }
 
-//Question 7
+//Commit 7
 const kristynsCloset = [
   "left shoe",
   "cowboy boots",
@@ -114,6 +114,20 @@ console.log(`Thom will be wearing ${(thomsCloset[(Math.floor(Math.random()*thoms
 console.log(`Thom will be wearing ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])} and ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])}`);
 
 
+//Commit 8
+for (i =0; i<kristynsCloset.length; i++)
+	console.log(`WHIRR: Now washing ${(kristynsCloset[i])}.`);
 
+//Commit 9
+
+
+//Commit 10
+let sum = 0;
+for (let i = 0; i<=1000; i++){
+	if(i%3 === 0 || i % 5 === 0){
+		sum += i;
+	}
+}
+console.log(sum)
 
 
