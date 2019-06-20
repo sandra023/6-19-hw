@@ -119,7 +119,9 @@ for (i =0; i<kristynsCloset.length; i++)
 	console.log(`WHIRR: Now washing ${(kristynsCloset[i])}.`);
 
 //Commit 9
-
+for (i =0; i<thomsCloset.length; i++){
+	console.log(thomsCloset[i]);
+}
 
 //Commit 10
 let sum = 0;
