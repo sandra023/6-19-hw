@@ -59,10 +59,61 @@
 // jimHaff.splice(2,1);
 // console.log(jimHaff);
 
-const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
-for (let i = 0; i < turtles.length; i++) {
-	console.log(turtles[i].toUpperCase());
-}
+//Question 6
+// const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// for (let i = 0; i < turtles.length; i++) {
+// 	console.log(turtles[i].toUpperCase());
+// }
+
+//Question 7
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+const kristynsShoe = kristynsCloset.splice(0,1).pop();
+console.log(kristynsCloset);
+console.log(kristynsShoe);
+
+thomsCloset[2].push(kristynsShoe);
+console.log(thomsCloset[2]);
+
+console.log(`Kristen will be wearing ${(kristynsCloset[(Math.floor(Math.random()*kristynsCloset.length))])} and ${(kristynsCloset[(Math.floor(Math.random()*kristynsCloset.length))])}.`);
+console.log(`Kristen will be wearing ${(kristynsCloset[(Math.floor(Math.random()*kristynsCloset.length))])} and ${(kristynsCloset[(Math.floor(Math.random()*kristynsCloset.length))])}`);
+console.log(`Kristen will be wearing ${(kristynsCloset[(Math.floor(Math.random()*kristynsCloset.length))])} and ${(kristynsCloset[(Math.floor(Math.random()*kristynsCloset.length))])}`);
+
+
+
+console.log(`Thom will be wearing ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])} and ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])} .`);
+console.log(`Thom will be wearing ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])} and ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])} .`);
+console.log(`Thom will be wearing ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])} and ${(thomsCloset[(Math.floor(Math.random()*thomsCloset.length))][(Math.floor(Math.random()*thomsCloset.length))])}`);
+
+
 
 
 
